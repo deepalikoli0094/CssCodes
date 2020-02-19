@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>uHost</title>
     <link rel="shortcut icon" href="favicon.png" />
-    <link rel="stylesheet" type="text/css" href="shared.css" />
-    <link rel="stylesheet" type="text/css" href="main.css" />
+
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="main.css" />
   </head>
 
   <body>
@@ -31,13 +32,13 @@
         <a href="index.html" class="main-header__brand">
           <img
             src="images/uhost-icon.png"
-            alt="uHost- your favirite  hosting  brand"
+            alt="uHost - Your favorite hosting company"
           />
         </a>
       </div>
       <nav class="main-nav">
-        <ul>
-          <li class="main-nav__item ">
+        <ul class="main-nav__items">
+          <li class="main-nav__item">
             <a href="packages/index.html">Packages</a>
           </li>
           <li class="main-nav__item">
@@ -66,11 +67,10 @@
       <section id="product-overview">
         <h1>Get the freedom you deserve.</h1>
       </section>
-
-      <section id="plan">
-        <h1 class="section-title">Choose your plan</h1>
-        <div class="plans-list">
-          <article class="plans">
+      <section id="plans">
+        <h1 class="section-title">Choose Your Plan</h1>
+        <div class="plan__list">
+          <article class="plan">
             <h1 class="plan__title">FREE</h1>
             <h2 class="plan__price">$0/month</h2>
             <h3>For hobby projects or small teams.</h3>
@@ -80,12 +80,11 @@
               <li class="plan__feature">10GB Storage</li>
               <li class="plan__feature">Basic Support</li>
             </ul>
-
             <div>
               <button class="button">CHOOSE PLAN</button>
             </div>
           </article>
-          <article class="plans plan--highlighted">
+          <article class="plan plan--highlighted">
             <h1 class="plan__annotation">RECOMMENDED</h1>
             <h1 class="plan__title">PLUS</h1>
             <h2 class="plan__price">$29/month</h2>
@@ -100,7 +99,7 @@
               <button class="button">CHOOSE PLAN</button>
             </div>
           </article>
-          <article class="plans">
+          <article class="plan">
             <h1 class="plan__title">PREMIUM</h1>
             <h2 class="plan__price">$99/month</h2>
             <h3>Your enterprise solution.</h3>
@@ -516,11 +515,11 @@
     </main>
     <footer class="main-footer">
       <nav>
-        <ul class="main-footer-links">
-          <li class="main-footer-link">
+        <ul class="main-footer__links">
+          <li class="main-footer__link">
             <a href="#">Support</a>
           </li>
-          <li class="main-footer-link">
+          <li class="main-footer__link">
             <a href="#">Terms of Use</a>
           </li>
         </ul>
